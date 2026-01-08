@@ -29,7 +29,9 @@ The serialization library does not depend on UART, radio, MQTT, or logging. Outp
 Clear separation of concerns
 Data models, JSON writing utilities, serialization logic, and application usage are kept separate.
 #Project Structure# (STM32CubeIDE)
+
 Core/
+
 ├── Inc/
 │   ├── meter_model.h        // Data structures
 │   └── json_writer.h        // JSON writer interface
